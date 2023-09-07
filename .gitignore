@@ -114,10 +114,11 @@ data
 *.pkl
 *.pkl.json
 *.log.json
-work_dirs/
+work_dirs
 exps/
 *~
 mmdet3d/.mim
+pretrained
 
 # Pytorch
 *.pth
