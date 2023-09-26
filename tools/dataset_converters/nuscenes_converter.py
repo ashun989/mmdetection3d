@@ -64,6 +64,8 @@ def create_nuscenes_infos(root_path,
     train_scenes = list(
         filter(lambda x: x in available_scene_names, train_scenes))
     val_scenes = list(filter(lambda x: x in available_scene_names, val_scenes))
+    # name to token
+    # name to token
     train_scenes = set([
         available_scenes[available_scene_names.index(s)]['token']
         for s in train_scenes
